@@ -68,7 +68,6 @@ https://example.com/feed-c.xml Blue_News[#0078b9] #news #blue
 ## Documentations et ressources
 
 * Site officiel de l'app : <https://example.com>
-* Documentation officielle utilisateur : <https://yunohost.org/apps>
 * Documentation officielle de l'admin : <https://yunohost.org/packaging_apps>
 * Dépôt de code officiel de l'app : <https://github.com/ssddanbrown/rss>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_rss>
