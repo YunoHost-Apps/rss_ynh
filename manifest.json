@@ -7,10 +7,10 @@
         "fr": "Simple RSS feed aggregator"
     },
     "version": "1.0.5~ynh1",
-    "url": "https://example.com",
+    "url": "https://github.com/ssddanbrown/rss",
     "upstream": {
         "license": "MIT",
-        "website": "https://example.com",
+        "website": "https://github.com/ssddanbrown/rss",
         "demo": "https://demo.example.com",
         "admindoc": "https://yunohost.org/packaging_apps",
         "code": "https://github.com/ssddanbrown/rss"
