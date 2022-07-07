@@ -1,0 +1,51 @@
+{
+    "name": "rss",
+    "id": "rss",
+    "packaging_format": 1,
+    "description": {
+        "en": "Simple RSS feed aggregator",
+        "fr": "Simple RSS feed aggregator"
+    },
+    "version": "1.0.5~ynh1",
+    "url": "https://example.com",
+    "upstream": {
+        "license": "MIT",
+        "website": "https://example.com",
+        "demo": "https://demo.example.com",
+        "admindoc": "https://yunohost.org/packaging_apps",
+        "userdoc": "https://yunohost.org/apps",
+        "code": "https://github.com/ssddanbrown/rss"
+    },
+    "license": "MIT",
+    "maintainer": {
+        "name": "",
+        "email": ""
+    },
+    "requirements": {
+        "yunohost": ">= 4.3.0"
+    },
+    "multi_instance": true,
+    "services": [
+        "nginx",
+        "php8.0-fpm"
+    ],
+    "arguments": {
+        "install": [
+            {
+                "name": "domain",
+                "type": "domain"
+            },
+            {
+                "name": "path",
+                "type": "path",
+                "example": "/rss",
+                "default": "/rss"
+            },
+            {
+                "name": "is_public",
+                "type": "boolean",
+                "default": true
+            }
+        ]
+    }
+}
