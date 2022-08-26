@@ -34,7 +34,8 @@ The following features are built into the application:
 - Mobile screen compatible.
 
 
-**Shipped version:** 1.0.5~ynh1
+**Shipped version:** 1.1.0~ynh1
+
 
 **Demo:** https://demo.example.com
 
