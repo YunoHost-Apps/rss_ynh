@@ -10,7 +10,7 @@ YNH_PHP_VERSION="8.1"
 
 pkg_dependencies="sqlite3 php${YNH_PHP_VERSION}-sqlite3"
 
-YNH_COMPOSER_VERSION=2.3.7
+YNH_COMPOSER_VERSION=2.3.10
 
 #=================================================
 # PERSONAL HELPERS
