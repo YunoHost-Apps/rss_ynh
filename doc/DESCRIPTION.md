@@ -15,3 +15,4 @@ The following features are built into the application:
 - System-based dark/light theme.
 - Post title/description search.
 - Mobile screen compatible.
+- Built-in support to prune old post data.
