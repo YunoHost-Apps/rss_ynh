@@ -36,7 +36,6 @@ The following features are built into the application:
 
 **Shipped version:** 1.1.0~ynh1
 
-
 **Demo:** https://demo.example.com
 
 ## Screenshots
