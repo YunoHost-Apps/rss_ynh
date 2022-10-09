@@ -124,6 +124,7 @@ ynh_script_progression --message="Installing RSS with Composer..." --weight=10
 
 # Install composer
 ynh_install_composer
+
 # Create database file
 touch $final_path/storage/database/database.sqlite
 
