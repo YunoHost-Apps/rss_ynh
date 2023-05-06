@@ -1,6 +1,6 @@
 ### Feed Configuration
 
-Feed configuration is handled by a plaintext file on the host system. By default this configuration would be located in a `feeds.txt` file within the path `/home/yunohost.app/rss`.
+Feed configuration is handled by a plaintext file on the host system. By default this configuration would be located in a `feeds.txt` file within the path `__DATA_DIR__`.
 
 The format of this file can be seen below:
 
