@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # rss for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/rss.svg)](https://dash.yunohost.org/appci/app/rss) ![Working status](https://ci-apps.yunohost.org/ci/badges/rss.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/rss.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/rss.svg)](https://dash.yunohost.org/appci/app/rss) ![Working status](https://ci-apps.yunohost.org/ci/badges/rss.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/rss.maintain.svg)
+
 [![Install rss with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=rss)
 
 *[Lire ce readme en français.](./README_fr.md)*

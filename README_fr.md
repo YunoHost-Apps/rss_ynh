@@ -5,15 +5,16 @@ It shall NOT be edited by hand.
 
 # rss pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/rss.svg)](https://dash.yunohost.org/appci/app/rss) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/rss.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/rss.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/rss.svg)](https://dash.yunohost.org/appci/app/rss) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/rss.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/rss.maintain.svg)
+
 [![Installer rss avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=rss)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer rss rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer rss rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 A simple, opinionated, RSS feed aggregator
 
@@ -38,9 +39,9 @@ The following features are built into the application:
 
 **Démo :** https://demo.example.com
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de rss](./doc/screenshots/card-view.png)
+![Capture d’écran de rss](./doc/screenshots/card-view.png)
 
 ## Avertissements / informations importantes
 
@@ -67,9 +68,9 @@ https://example.com/feed-c.xml Blue_News[#0078b9] #news #blue
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://github.com/ssddanbrown/rss>
-* Documentation officielle de l'admin : <https://yunohost.org/packaging_apps>
-* Dépôt de code officiel de l'app : <https://github.com/ssddanbrown/rss>
+* Site officiel de l’app : <https://github.com/ssddanbrown/rss>
+* Documentation officielle de l’admin : <https://yunohost.org/packaging_apps>
+* Dépôt de code officiel de l’app : <https://github.com/ssddanbrown/rss>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_rss>
 * Signaler un bug : <https://github.com/YunoHost-Apps/rss_ynh/issues>
 
@@ -85,4 +86,4 @@ ou
 sudo yunohost app upgrade rss -u https://github.com/YunoHost-Apps/rss_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
