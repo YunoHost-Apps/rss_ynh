@@ -25,6 +25,9 @@ ynh_script_progression --message="Setting up source files..." --weight=3
 # Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$install_dir"
 
+chmod -R o-rwx "$install_dir"
+chown -R $app:www-data "$install_dir"
+
 #=================================================
 # PHP-FPM CONFIGURATION
 #=================================================
@@ -66,8 +69,8 @@ pushd $install_dir
 	php$phpversion artisan migrate --no-interaction --force
 	php$phpversion artisan storage:link
 	ynh_use_nodejs
-	ynh_exec_warn_less npm install
-	ynh_exec_warn_less npm run build
+	ynh_exec_warn_less sudo -u $app env $ynh_node_load_PATH $ynh_npm install
+	ynh_exec_warn_less sudo -u $app env $ynh_node_load_PATH $ynh_npm run build
 popd
 
 # Set permissions to app files
