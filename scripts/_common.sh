@@ -6,9 +6,9 @@
 
 nodejs_version=16
 
-YNH_PHP_VERSION="8.1"
+#REMOVEME? YNH_PHP_VERSION="8.1"
 
-pkg_dependencies="sqlite3 php${YNH_PHP_VERSION}-sqlite3"
+#REMOVEME? pkg_dependencies="sqlite3 php${YNH_PHP_VERSION}-sqlite3"
 
 YNH_COMPOSER_VERSION=2.3.10
 
