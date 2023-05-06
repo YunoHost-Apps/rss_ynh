@@ -1,0 +1,57 @@
+packaging_format = 2
+
+id = "rss"
+name = "rss"
+description.en = "Simple RSS feed aggregator"
+description.fr = "Agrégateur de flux RSS simple"
+
+version = "1.3.0~ynh1"
+
+maintainers = []
+
+[upstream]
+license = "MIT"
+website = "https://github.com/ssddanbrown/rss"
+demo = "https://demo.example.com"
+admindoc = "https://yunohost.org/packaging_apps"
+code = "https://github.com/ssddanbrown/rss"
+
+[integration]
+yunohost = ">= 11.1.18"
+architectures = "all"
+multi_instance = true
+ldap =false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/rss"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+        [resources.sources.main]
+        url = "https://github.com/ssddanbrown/rss/archive/refs/tags/v1.3.0.tar.gz"
+        sha256 = "8f873a4e53c0b5c340192ee04f5a4dd98400b5b2bca122105ea8113b8852ccf2"
+        autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.data_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = "sqlite3 php8.1-sqlite3"
