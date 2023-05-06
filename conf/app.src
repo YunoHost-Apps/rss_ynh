@@ -1,7 +1,0 @@
-SOURCE_URL=https://github.com/ssddanbrown/rss/archive/refs/tags/v1.1.0.tar.gz
-SOURCE_SUM=a048a283d9ec7fc08426910b8a2e7f594b54830d36a8e652d2a285a4ce31e3b6
-SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
-SOURCE_IN_SUBDIR=true
-SOURCE_FILENAME=
-SOURCE_EXTRACT=true
