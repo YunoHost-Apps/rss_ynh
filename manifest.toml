@@ -1,7 +1,7 @@
 packaging_format = 2
 
 id = "rss"
-name = "rss"
+name = "RSS"
 description.en = "Simple RSS feed aggregator"
 description.fr = "Agrégateur de flux RSS simple"
 
