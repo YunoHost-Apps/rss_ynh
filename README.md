@@ -37,8 +37,6 @@ The following features are built into the application:
 
 **Shipped version:** 1.3.0~ynh1
 
-**Demo:** https://demo.example.com
-
 ## Screenshots
 
 ![Screenshot of RSS](./doc/screenshots/card-view.png)
@@ -46,7 +44,6 @@ The following features are built into the application:
 ## Documentation and resources
 
 * Official app website: <https://github.com/ssddanbrown/rss>
-* Official admin documentation: <https://yunohost.org/packaging_apps>
 * Upstream app code repository: <https://github.com/ssddanbrown/rss>
 * YunoHost documentation for this app: <https://yunohost.org/app_rss>
 * Report a bug: <https://github.com/YunoHost-Apps/rss_ynh/issues>
