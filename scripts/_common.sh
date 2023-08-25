@@ -4,9 +4,9 @@
 # COMMON VARIABLES
 #=================================================
 
-nodejs_version=16
+nodejs_version=18
 
-YNH_COMPOSER_VERSION=2.3.10
+YNH_COMPOSER_VERSION=2.5.8
 
 #=================================================
 # PERSONAL HELPERS
