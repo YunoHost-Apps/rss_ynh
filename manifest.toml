@@ -5,7 +5,7 @@ name = "RSS"
 description.en = "Simple RSS feed aggregator"
 description.fr = "Agrégateur de flux RSS simple"
 
-version = "1.3.0~ynh1"
+version = "1.4.0~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -37,8 +37,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/ssddanbrown/rss/archive/refs/tags/v1.3.0.tar.gz"
-        sha256 = "8f873a4e53c0b5c340192ee04f5a4dd98400b5b2bca122105ea8113b8852ccf2"
+        url = "https://github.com/ssddanbrown/rss/archive/refs/tags/v1.4.0.tar.gz"
+        sha256 = "a3570075d0c4b2f2dcb06b72e77858c0c765caad9659c13381769c7e1cb937ac"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
