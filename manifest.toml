@@ -1,0 +1,54 @@
+packaging_format = 2
+
+id = "rss"
+name = "RSS"
+description.en = "Simple RSS feed aggregator"
+description.fr = "Agrégateur de flux RSS simple"
+
+version = "1.4.0~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "MIT"
+code = "https://github.com/ssddanbrown/rss"
+
+[integration]
+yunohost = ">= 11.2"
+architectures = "all"
+multi_instance = true
+ldap =false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/rss"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+        [resources.sources.main]
+        url = "https://github.com/ssddanbrown/rss/archive/refs/tags/v1.4.0.tar.gz"
+        sha256 = "a3570075d0c4b2f2dcb06b72e77858c0c765caad9659c13381769c7e1cb937ac"
+        autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.data_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = "sqlite3 php8.2-sqlite3 php8.2-dom php8.2-xml"
