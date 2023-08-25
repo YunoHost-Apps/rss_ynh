@@ -35,7 +35,7 @@ The following features are built into the application:
 - Mobile screen compatible.
 - Built-in support to prune old post data.
 
-**Version incluse :** 1.3.0~ynh1
+**Version incluse :** 1.4.0~ynh1
 
 ## Captures d’écran
 
