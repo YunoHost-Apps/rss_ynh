@@ -43,7 +43,6 @@ The following features are built into the application:
 
 ## Documentations et ressources
 
-* Site officiel de l’app : <https://github.com/ssddanbrown/rss>
 * Dépôt de code officiel de l’app : <https://github.com/ssddanbrown/rss>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_rss>
 * Signaler un bug : <https://github.com/YunoHost-Apps/rss_ynh/issues>
