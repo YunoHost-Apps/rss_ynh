@@ -5,7 +5,7 @@ name = "RSS"
 description.en = "Simple RSS feed aggregator"
 description.fr = "Agrégateur de flux RSS simple"
 
-version = "1.4.0~ynh1"
+version = "1.4.2~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -37,8 +37,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/ssddanbrown/rss/archive/refs/tags/v1.4.0.tar.gz"
-        sha256 = "a3570075d0c4b2f2dcb06b72e77858c0c765caad9659c13381769c7e1cb937ac"
+        url = "https://github.com/ssddanbrown/rss/archive/refs/tags/v1.4.2.tar.gz"
+        sha256 = "4315ec1c698ae500f20d4eaaad6b17770a99f71e7c080f766a0c08145c4ed257"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
@@ -51,4 +51,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "sqlite3 php8.2-sqlite3 php8.2-dom php8.2-xml"
+    packages = "sqlite3, php8.2-sqlite3, php8.2-dom, php8.2-xml"
