@@ -34,12 +34,16 @@ chown -R $app:www-data "$install_dir"
 ynh_script_progression --message="Configuring PHP-FPM..." --weight=2
 
 # Create a dedicated PHP-FPM config
-ynh_add_fpm_config --usage=low --footprint=low
+ynh_add_fpm_config
 
 # Create a dedicated NGINX config
 ynh_add_nginx_config
 
 ynh_add_config --template="../conf/feeds.txt" --destination="$data_dir/feeds.txt"
+
+ynh_add_config --template="../conf/cron" --destination="/etc/cron.d/$app"
+chown root: "/etc/cron.d/$app"
+chmod 644 "/etc/cron.d/$app"
 
 #=================================================
 # INSTALL LYCHEE WITH COMPOSER
@@ -47,7 +51,7 @@ ynh_add_config --template="../conf/feeds.txt" --destination="$data_dir/feeds.txt
 ynh_script_progression --message="Installing RSS with Composer..." --weight=10
 
 # Install composer
-ynh_install_composer
+ynh_install_composer --install_args="--no-dev"
 
 # Create database file
 touch $install_dir/storage/database/database.sqlite
@@ -80,15 +84,6 @@ chown -R $app:www-data $install_dir
 
 chmod 600 $install_dir/.env
 chown $app:$app $install_dir/.env
-
-#=================================================
-# SETUP A CRON
-#=================================================
-ynh_script_progression --message="Setuping a cron..." --weight=1
-
-ynh_add_config --template="../conf/cron" --destination="/etc/cron.d/$app"
-chown root: "/etc/cron.d/$app"
-chmod 644 "/etc/cron.d/$app"
 
 #=================================================
 # END OF SCRIPT
