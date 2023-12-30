@@ -35,7 +35,7 @@ The following features are built into the application:
 - Mobile screen compatible.
 - Built-in support to prune old post data.
 
-**Shipped version:** 1.4.2~ynh1
+**Shipped version:** 1.4.4~ynh1
 
 ## Screenshots
 
@@ -44,6 +44,7 @@ The following features are built into the application:
 ## Documentation and resources
 
 * Upstream app code repository: <https://github.com/ssddanbrown/rss>
+* YunoHost Store: <https://apps.yunohost.org/app/rss>
 * Report a bug: <https://github.com/YunoHost-Apps/rss_ynh/issues>
 
 ## Developer info
