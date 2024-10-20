@@ -3,6 +3,8 @@
 source _common.sh
 source /usr/share/yunohost/helpers
 
+key=$(ynh_string_random --length=16)
+
 #=================================================
 # INSTALL DEPENDENCIES
 #=================================================
@@ -56,7 +58,6 @@ pushd $install_dir
 	php$php_version artisan key:generate --no-interaction --force
 	php$php_version artisan migrate --no-interaction --force
 	php$php_version artisan storage:link
-
 	ynh_hide_warnings ynh_exec_as_app npm install
 	ynh_hide_warnings ynh_exec_as_app npm run build
 popd
