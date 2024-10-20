@@ -5,4 +5,4 @@
 #=================================================
 
 nodejs_version=20
-composer_version=2.5.8
+composer_version=2.8.1
