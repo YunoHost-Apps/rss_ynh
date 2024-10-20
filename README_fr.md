@@ -43,7 +43,7 @@ The following features are built into the application:
 
 ## Documentations et ressources
 
-- Dépôt de code officiel de l’app : <https://github.com/ssddanbrown/rss>
+- Dépôt de code officiel de l’app : <https://codeberg.org/danb/rss/>
 - YunoHost Store : <https://apps.yunohost.org/app/rss>
 - Signaler un bug : <https://github.com/YunoHost-Apps/rss_ynh/issues>
 

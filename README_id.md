@@ -43,7 +43,7 @@ The following features are built into the application:
 
 ## Dokumentasi dan sumber daya
 
-- Depot kode aplikasi hulu: <https://github.com/ssddanbrown/rss>
+- Depot kode aplikasi hulu: <https://codeberg.org/danb/rss/>
 - Gudang YunoHost: <https://apps.yunohost.org/app/rss>
 - Laporkan bug: <https://github.com/YunoHost-Apps/rss_ynh/issues>
 

@@ -43,7 +43,7 @@ The following features are built into the application:
 
 ## Документация и ресурсы
 
-- Репозиторий кода главной ветки приложения: <https://github.com/ssddanbrown/rss>
+- Репозиторий кода главной ветки приложения: <https://codeberg.org/danb/rss/>
 - Магазин YunoHost: <https://apps.yunohost.org/app/rss>
 - Сообщите об ошибке: <https://github.com/YunoHost-Apps/rss_ynh/issues>
 

@@ -43,7 +43,7 @@ The following features are built into the application:
 
 ## Documentatie en bronnen
 
-- Upstream app codedepot: <https://github.com/ssddanbrown/rss>
+- Upstream app codedepot: <https://codeberg.org/danb/rss/>
 - YunoHost-store: <https://apps.yunohost.org/app/rss>
 - Meld een bug: <https://github.com/YunoHost-Apps/rss_ynh/issues>
 

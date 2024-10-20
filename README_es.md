@@ -43,7 +43,7 @@ The following features are built into the application:
 
 ## Documentaciones y recursos
 
-- Repositorio del código fuente oficial de la aplicación : <https://github.com/ssddanbrown/rss>
+- Repositorio del código fuente oficial de la aplicación : <https://codeberg.org/danb/rss/>
 - Catálogo YunoHost: <https://apps.yunohost.org/app/rss>
 - Reportar un error: <https://github.com/YunoHost-Apps/rss_ynh/issues>
 

@@ -43,7 +43,7 @@ The following features are built into the application:
 
 ## 文档与资源
 
-- 上游应用代码库： <https://github.com/ssddanbrown/rss>
+- 上游应用代码库： <https://codeberg.org/danb/rss/>
 - YunoHost 商店： <https://apps.yunohost.org/app/rss>
 - 报告 bug： <https://github.com/YunoHost-Apps/rss_ynh/issues>
 
