@@ -35,7 +35,7 @@ The following features are built into the application:
 - Mobile screen compatible.
 - Built-in support to prune old post data.
 
-**Versi terkirim:** 1.4.4~ynh1
+**Versi terkirim:** 1.5.3~ynh1
 
 ## Tangkapan Layar
 
