@@ -43,7 +43,7 @@ The following features are built into the application:
 
 ## Documentation and resources
 
-- Upstream app code repository: <https://github.com/ssddanbrown/rss>
+- Upstream app code repository: <https://codeberg.org/danb/rss/>
 - YunoHost Store: <https://apps.yunohost.org/app/rss>
 - Report a bug: <https://github.com/YunoHost-Apps/rss_ynh/issues>
 

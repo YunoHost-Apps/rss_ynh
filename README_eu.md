@@ -43,7 +43,7 @@ The following features are built into the application:
 
 ## Dokumentazioa eta baliabideak
 
-- Jatorrizko aplikazioaren kode-gordailua: <https://github.com/ssddanbrown/rss>
+- Jatorrizko aplikazioaren kode-gordailua: <https://codeberg.org/danb/rss/>
 - YunoHost Denda: <https://apps.yunohost.org/app/rss>
 - Eman errore baten berri: <https://github.com/YunoHost-Apps/rss_ynh/issues>
 
