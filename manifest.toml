@@ -5,7 +5,7 @@ name = "RSS"
 description.en = "Simple RSS feed aggregator"
 description.fr = "Agrégateur de flux RSS simple"
 
-version = "1.4.4~ynh1"
+version = "1.5.3~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -14,7 +14,7 @@ license = "MIT"
 code = "https://github.com/ssddanbrown/rss"
 
 [integration]
-yunohost = ">= 11.2.18"
+yunohost = ">= 11.2.30"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -34,9 +34,9 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/ssddanbrown/rss/archive/refs/tags/v1.4.4.tar.gz"
-        sha256 = "d1a4ab095e27c09c615eb02640b673371cf9d5ee9d8efd69008967545aa5da61"
-        autoupdate.strategy = "latest_github_tag"
+        url = "https://codeberg.org/danb/rss/archive/v1.5.3.tar.gz"
+        sha256 = "74dc8d9d0d090ef1a3ce075825dcb6b70ed9a19f9d4af6249e23d4d131785cc8"
+        autoupdate.strategy = "latest_gitea_tag"
 
     [resources.system_user]
 
