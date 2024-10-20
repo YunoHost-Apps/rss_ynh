@@ -3,8 +3,6 @@
 source _common.sh
 source /usr/share/yunohost/helpers
 
-key=$(ynh_string_random --length=16)
-
 #=================================================
 # INSTALL DEPENDENCIES
 #=================================================
@@ -28,6 +26,10 @@ ynh_config_add_phpfpm
 
 ynh_config_add_nginx
 
+ynh_config_add_systemd
+
+yunohost service add "$app" --description="A short description of the app" --log="/var/log/$app/$app.log"
+
 ynh_config_add --template="feeds.txt" --destination="$install_dir/feeds.txt"
 
 ynh_config_add --template="cron" --destination="/etc/cron.d/$app"
@@ -38,7 +40,7 @@ ynh_config_add --template="cron" --destination="/etc/cron.d/$app"
 ynh_script_progression "Installing RSS with Composer..."
 
 ynh_composer_install
-ynh_composer_exec install --no-dev  --no-dev
+ynh_composer_exec install --no-dev
 
 touch $install_dir/storage/database/database.sqlite
 

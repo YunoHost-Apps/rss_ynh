@@ -1,0 +1,13 @@
+[Unit]
+Description=Laravel Queue Worker
+After=network.target
+ 
+[Service]
+User=www-data
+Group=www-data
+Restart=always
+WorkingDirectory=/path/to/your/laravel
+ExecStart=/usr/bin/php__PHP_VERSION__ __INSTALL_DIR__/ artisan queue:work --daemon --env=production
+
+[Install]
+WantedBy=multi-user.target
