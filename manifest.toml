@@ -11,7 +11,7 @@ maintainers = ["eric_G"]
 
 [upstream]
 license = "MIT"
-code = "https://github.com/ssddanbrown/rss"
+code = "https://codeberg.org/danb/rss/"
 
 [integration]
 yunohost = ">= 11.2.30"
@@ -49,4 +49,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "sqlite3, php8.1-curl, php8.1-mbstring, php8.1-xml, php8.1-zip, php8.1-gd, php8.1-sqlite3, php8.1-bcmath"
+    packages = "sqlite3, php8.3-cli, php8.3-cgi,php8.3-curl, php8.3-mbstring, php8.3-xml, php8.3-zip, php8.3-gd, php8.3-sqlite3, php8.3-bcmath"
