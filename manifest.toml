@@ -5,7 +5,7 @@ name = "RSS"
 description.en = "Simple RSS feed aggregator"
 description.fr = "Agrégateur de flux RSS simple"
 
-version = "1.5.3~ynh1"
+version = "2.2.3~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -14,12 +14,14 @@ license = "MIT"
 code = "https://codeberg.org/danb/rss/"
 
 [integration]
-yunohost = ">= 11.2.30"
+yunohost = ">= 11.2.40"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
+
 ldap =false
 sso = false
+
 disk = "50M"
 ram.build = "50M"
 ram.runtime = "50M"
@@ -34,8 +36,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://codeberg.org/danb/rss/archive/v1.5.3.tar.gz"
-        sha256 = "74dc8d9d0d090ef1a3ce075825dcb6b70ed9a19f9d4af6249e23d4d131785cc8"
+        url = "https://codeberg.org/danb/rss/archive/v2.2.3.tar.gz"
+        sha256 = "05e1d7739691b000b2e09be2656e0c19b27429d4175dc7fd4f73aed00a671d79"
         autoupdate.strategy = "latest_gitea_tag"
 
     [resources.system_user]
@@ -49,4 +51,10 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "sqlite3, php8.3-cli, php8.3-cgi,php8.3-curl, php8.3-mbstring, php8.3-xml, php8.3-zip, php8.3-gd, php8.3-sqlite3, php8.3-bcmath"
+    packages = "sqlite3, php8.5-cli, php8.5-cgi, php8.5-curl, php8.5-mbstring, php8.5-xml, php8.5-zip, php8.5-gd, php8.5-sqlite3, php8.5-bcmath"
+    
+    [resources.composer]
+    version = "2.10.3"
+
+    [resources.nodejs]
+    version = "24"
